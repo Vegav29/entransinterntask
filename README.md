@@ -65,7 +65,7 @@ The first step is to import the sales data from an Excel file and load it into a
 
 **Screenshot:**
 ![Import Data Screenshot](![image](https://github.com/user-attachments/assets/0bf1714b-a889-410f-a8a1-1821ab81c168)
-)
+
 
 ---
 
