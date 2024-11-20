@@ -25,7 +25,7 @@ class Features:
         if 'Customer_Age' in self.data.columns:
             self.data['Customer_Age'] = pd.to_numeric(self.data['Customer_Age'], errors='coerce')
 
-        # Derive new features (e.g., Profit Margin)
+        # Derive new features 
         if 'Profit Margin' not in self.data.columns and 'Revenue' in self.data.columns and 'Profit' in self.data.columns:
             self.data['Profit Margin'] = (self.data['Profit'] / self.data['Revenue']) * 100
 
