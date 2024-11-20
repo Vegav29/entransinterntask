@@ -1,7 +1,6 @@
 Dsproject
 ==============================
-
-task
+Using Cookiecutter, I organized the project to follow best practices, ensuring a maintainable structure. The data was preprocessed by handling missing values, removing unnecessary columns, converting data types, and deriving new features like Profit Margin. The processed dataset was then saved as a .pkl file in the data/interim directory for efficient use in further analysis. I also planned to perform additional tasks such as data visualization and other analyses but could not complete them due to time constraints.
 
 Project Organization
 ------------
