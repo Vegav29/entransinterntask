@@ -64,8 +64,8 @@ This project involves analyzing and visualizing sales data using Python. The goa
 The first step is to import the sales data from an Excel file and load it into a Pandas DataFrame for processing.
 
 **Screenshot:**
-![Import Data Screenshot](![image](https://github.com/user-attachments/assets/0bf1714b-a889-410f-a8a1-1821ab81c168)
 
+![Import Data Screenshot](https://github.com/user-attachments/assets/0bf1714b-a889-410f-a8a1-1821ab81c168)
 
 ---
 
@@ -73,8 +73,8 @@ The first step is to import the sales data from an Excel file and load it into a
 This step involves checking the data types, handling null values, and ensuring the dataset is clean for analysis.
 
 **Screenshot:**
-![Preprocessing Screenshot](![image](https://github.com/user-attachments/assets/a519505c-541c-4027-ac9e-c39fa36aa19a)
-)
+
+![Preprocessing Screenshot](https://github.com/user-attachments/assets/a519505c-541c-4027-ac9e-c39fa36aa19a)
 
 ---
 
@@ -82,8 +82,8 @@ This step involves checking the data types, handling null values, and ensuring t
 Once the data is processed, it is saved as a pickle object for future use and storage.
 
 **Screenshot:**
-![Save Data Screenshot](![image](https://github.com/user-attachments/assets/593a51b5-9039-4c93-b92a-a3ac2c031af8)
-)
+
+![Save Data Screenshot](https://github.com/user-attachments/assets/593a51b5-9039-4c93-b92a-a3ac2c031af8)
 
 ---
 
@@ -91,10 +91,8 @@ Once the data is processed, it is saved as a pickle object for future use and st
 We perform data analysis and create various visualizations to extract insights from the data.
 
 **Screenshot:**
-![Data Analysis Screenshot](![image](https://github.com/user-attachments/assets/04bd7676-7c42-422f-b670-5b1ede688fe5),![image](https://github.com/user-attachments/assets/e686aea8-9c12-42ff-8857-0b71f1d5982c),![image](https://github.com/user-attachments/assets/dd83bb78-c6ac-4765-a542-5753b3a09fa0)
 
-
-)
+![Data Analysis Screenshot](https://github.com/user-attachments/assets/04bd7676-7c42-422f-b670-5b1ede688fe5)
 
 ---
 
@@ -102,7 +100,8 @@ We perform data analysis and create various visualizations to extract insights f
 Visualizations are generated to provide a better understanding of the data, and the images are saved for future reference.
 
 **Screenshot:**
-![Visualization Screenshot](./screenshots/visualization.png)
+
+![Visualization Screenshot](https://github.com/user-attachments/assets/e686aea8-9c12-42ff-8857-0b71f1d5982c)
 
 ---
 
@@ -110,7 +109,8 @@ Visualizations are generated to provide a better understanding of the data, and 
 Summary statistics for numeric columns, including mean, median, and other key metrics, are calculated to provide insights into the dataset.
 
 **Screenshot:**
-![Summary Statistics Screenshot](./screenshots/summary_statistics.png)
+
+![Summary Statistics Screenshot](https://github.com/user-attachments/assets/dd83bb78-c6ac-4765-a542-5753b3a09fa0)
 
 ---
 
@@ -118,8 +118,8 @@ Summary statistics for numeric columns, including mean, median, and other key me
 This step counts the unique values for columns such as Product_Category, Sub_Category, and Product.
 
 **Screenshot:**
-![Unique Counts Screenshot](![image](https://github.com/user-attachments/assets/bee722be-200d-410d-ab82-729682fd9e2f)
-)
+
+![Unique Counts Screenshot](https://github.com/user-attachments/assets/bee722be-200d-410d-ab82-729682fd9e2f)
 
 ---
 
@@ -127,8 +127,8 @@ This step counts the unique values for columns such as Product_Category, Sub_Cat
 A histogram is created to visualize the distribution of customer ages.
 
 **Screenshot:**
-![Customer Age Histogram Screenshot](./screenshots/![image](https://github.com/user-attachments/assets/643ccfaf-85cc-4e39-9c37-b928c35b592f)
-)
+
+![Customer Age Histogram Screenshot](https://github.com/user-attachments/assets/643ccfaf-85cc-4e39-9c37-b928c35b592f)
 
 ---
 
@@ -136,7 +136,8 @@ A histogram is created to visualize the distribution of customer ages.
 This advanced visualization shows the revenue distribution for each age group across different years using box plots.
 
 **Screenshot:**
-![Revenue Distribution Box Plot Screenshot](./screenshots/revenue_distribution_boxplot.png)
+
+![Revenue Distribution Box Plot Screenshot](https://github.com/user-attachments/assets/7d1a33fa-3b36-4668-a0c8-c983da22b5b0)
 
 ---
 
@@ -144,8 +145,8 @@ This advanced visualization shows the revenue distribution for each age group ac
 A pie chart or bar chart is generated to visualize the gender distribution of the customers.
 
 **Screenshot:**
-![Gender Distribution Pie Chart Screenshot](![image](https://github.com/user-attachments/assets/bd21c54c-7071-41f5-83c3-c2e7893d8956)
 
+![Gender Distribution Pie Chart Screenshot](https://github.com/user-attachments/assets/bd21c54c-7071-41f5-83c3-c2e7893d8956)
 
 ---
 
@@ -153,8 +154,8 @@ A pie chart or bar chart is generated to visualize the gender distribution of th
 This bar chart shows the relationship between different age groups and their corresponding revenue.
 
 **Screenshot:**
-![Age Group vs Revenue Bar Chart Screenshot](![image](https://github.com/user-attachments/assets/d85df4cd-ccfb-4bec-b2f1-b86fad383d2f)
-)
+
+![Age Group vs Revenue Bar Chart Screenshot](https://github.com/user-attachments/assets/d85df4cd-ccfb-4bec-b2f1-b86fad383d2f)
 
 ---
 
@@ -162,9 +163,8 @@ This bar chart shows the relationship between different age groups and their cor
 We analyze which product category is the most and least profitable by summing the profits for each category and creating a horizontal bar chart.
 
 **Screenshot:**
-![Product Category Profit Screenshot](![image](https://github.com/user-attachments/assets/456a7fca-c2c8-4cb6-a9ab-7256392382d2),![image](https://github.com/user-attachments/assets/2aa2b8f5-6964-4d95-8295-dc0e337a032e)
 
-)
+![Product Category Profit Screenshot](https://github.com/user-attachments/assets/456a7fca-c2c8-4cb6-a9ab-7256392382d2)
 
 ---
 
@@ -172,8 +172,8 @@ We analyze which product category is the most and least profitable by summing th
 A line plot is created to show the trends in revenue and profit based on user input for a specific period.
 
 **Screenshot:**
-![Revenue and Profit Trends Line Plot Screenshot](![image](https://github.com/user-attachments/assets/51c42d8e-ca86-4122-b7de-bd86cefddc70)
 
+![Revenue and Profit Trends Line Plot Screenshot](https://github.com/user-attachments/assets/51c42d8e-ca86-4122-b7de-bd86cefddc70)
 
 ---
 
@@ -181,8 +181,8 @@ A line plot is created to show the trends in revenue and profit based on user in
 A scatter plot is generated to visualize the average profit margin for each product.
 
 **Screenshot:**
-![Profit Margin Scatter Plot Screenshot](![image](https://github.com/user-attachments/assets/9a3babc8-8fe3-4c00-8001-0c9bf370bd4f)
-)
+
+![Profit Margin Scatter Plot Screenshot](https://github.com/user-attachments/assets/9a3babc8-8fe3-4c00-8001-0c9bf370bd4f)
 
 ---
 
@@ -190,8 +190,8 @@ A scatter plot is generated to visualize the average profit margin for each prod
 An advanced scatter plot visualizes the relationship between profit margin and profit amount, with marker size representing profit.
 
 **Screenshot:**
-![Profit Margin with Profit Scatter Plot Screenshot](![image](https://github.com/user-attachments/assets/7d1a33fa-3b36-4668-a0c8-c983da22b5b0)
-)
+
+![Profit Margin with Profit Scatter Plot Screenshot](https://github.com/user-attachments/assets/7d1a33fa-3b36-4668-a0c8-c983da22b5b0)
 
 ---
 
@@ -199,10 +199,9 @@ An advanced scatter plot visualizes the relationship between profit margin and p
 A stacked bar chart is created to visualize revenue or profit by sub-category within each product category.
 
 **Screenshot:**
-![Sub-Category Performance Stacked Bar Chart Screenshot](![image](https://github.com/user-attachments/assets/7da203cd-9ab1-44fe-98bc-c29804b7f574)
 
+![Sub-Category Performance Stacked Bar Chart Screenshot](https://github.com/user-attachments/assets/7da203cd-9ab1-44fe-98bc-c29804b7f574)
 
----
 
 ## Conclusion
 The project provides a comprehensive analysis of sales data, offering various insights into product performance, customer demographics, and trends over time. The visualizations and statistical analyses can be used for decision-making and strategic planning.
