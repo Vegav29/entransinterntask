@@ -202,8 +202,46 @@ A stacked bar chart is created to visualize revenue or profit by sub-category wi
 **Screenshot:**
 
 ![Sub-Category Performance Stacked Bar Chart Screenshot](https://github.com/user-attachments/assets/7da203cd-9ab1-44fe-98bc-c29804b7f574)
+# Unit Testing
 
+This project includes unit tests to ensure the correctness and reliability of the implemented functionalities. The tests are designed to validate key aspects of the application, such as data integrity, functionality, and error handling.
 
+## Test Files
+- All test cases are located in the `src/unittest/` directory.
+- Each test file corresponds to specific modules or functionalities within the project.
+
+## Tests Overview
+1. **Data Validation**:
+   - Ensures the data loaded from pickle files is valid, with correct column names, data types, and non-empty content.
+   - Verifies the presence of mandatory columns such as `Product_Category`, `Sub_Category`, `Revenue`, and `Profit`.
+
+2. **Functionality Testing**:
+   - Tests core functionalities like filtering data by a date range and plotting revenue and profit trends.
+   - Ensures functions handle invalid inputs, empty datasets, and out-of-range dates gracefully.
+
+3. **Error Handling**:
+   - Validates that the system raises appropriate exceptions for invalid scenarios, such as:
+     - Missing or empty data.
+# Unit Testing
+
+This project includes unit tests to ensure the correctness and reliability of the implemented functionalities. The tests are designed to validate key aspects of the application, such as data integrity, functionality, and error handling.
+
+## Test Files
+- All test cases are located in the `src/unittest/` directory.
+- Each test file corresponds to specific modules or functionalities within the project.
+
+## Tests Overview
+1. **Data Validation**:
+   - Ensures the data loaded from pickle files is valid, with correct column names, data types, and non-empty content.
+   - Verifies the presence of mandatory columns such as `Product_Category`, `Sub_Category`, `Revenue`, and `Profit`.
+
+2. **Functionality Testing**:
+   - Tests core functionalities like filtering data by a date range and plotting revenue and profit trends.
+   - Ensures functions handle invalid inputs, empty datasets, and out-of-range dates gracefully.
+
+3. **Error Handling**:
+   - Validates that the system raises appropriate exceptions for invalid scenarios, such as:
+     - Missing or empty data.
 ## Conclusion
 The project provides a comprehensive analysis of sales data, offering various insights into product performance, customer demographics, and trends over time. The visualizations and statistical analyses can be used for decision-making and strategic planning.
 
