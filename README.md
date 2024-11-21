@@ -14,13 +14,12 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── figures          
+    │         
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks.
+    │    └── analysis.ipynb <- Jupyter notebooks for data analysis, exploration, and experimentation.                  
+    │                         
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -36,17 +35,19 @@ Project Organization
     │   │
     │   ├── data           <- Scripts to download or generate data
     │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
+    │   │── data 
+    │   ├── features <- Scripts to turn raw data into features for modeling
+    |   |   └── build_features.py
+    |   ├── Visulaization    
+    │       ├── agerevenue.py        <- Class for visualizing age revenue data.
+    │       ├── profitmargin.py      <- Class for visualizing profit margins.
+    │       ├── profittrends.py      <- Class for visualizing profit trends over time.
+    │       ├── questionm.py         <- Class for visualizing questions and answers.
+    │       ├── stackedbarchart.py   <- Class for creating stacked bar charts.
+    │       ├── summary.py           <- Class for summarizing visual analysis.
+    │       └── visualize.py         <- Main script to tie all visualizations together.
+    |
+    |   
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
