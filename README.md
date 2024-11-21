@@ -105,7 +105,7 @@ Visualizations are generated to provide a better understanding of the data, and 
 
 ---
 
-### 6. Calculate Summary Statistics (Mean, Median, etc.) for Numeric Columns
+### 5.a. Calculate Summary Statistics (Mean, Median, etc.) for Numeric Columns
 Summary statistics for numeric columns, including mean, median, and other key metrics, are calculated to provide insights into the dataset.
 
 **Screenshot:**
@@ -114,7 +114,7 @@ Summary statistics for numeric columns, including mean, median, and other key me
 
 ---
 
-### 7. Find the Total Number of Product_Category, Sub_Category, Product
+### 5.b. Find the Total Number of Product_Category, Sub_Category, Product
 This step counts the unique values for columns such as Product_Category, Sub_Category, and Product.
 
 **Screenshot:**
@@ -123,7 +123,7 @@ This step counts the unique values for columns such as Product_Category, Sub_Cat
 
 ---
 
-### 8. Create a Histogram of Customer_Age to Observe the Age Distribution
+### 5.c. Create a Histogram of Customer_Age to Observe the Age Distribution
 A histogram is created to visualize the distribution of customer ages.
 
 **Screenshot:**
@@ -132,7 +132,7 @@ A histogram is created to visualize the distribution of customer ages.
 
 ---
 
-### 9. [Advanced] Create 5 Subplots with Box Plots of Revenue Distribution Across Each Age Group for a Year
+### 5.d. [Advanced] Create 5 Subplots with Box Plots of Revenue Distribution Across Each Age Group for a Year
 This advanced visualization shows the revenue distribution for each age group across different years using box plots.
 
 **Screenshot:**
@@ -141,7 +141,7 @@ This advanced visualization shows the revenue distribution for each age group ac
 
 ---
 
-### 10. Create a Pie Chart or Bar Chart to Visualize Gender Distribution
+### 5.e. Create a Pie Chart or Bar Chart to Visualize Gender Distribution
 A pie chart or bar chart is generated to visualize the gender distribution of the customers.
 
 **Screenshot:**
@@ -150,7 +150,7 @@ A pie chart or bar chart is generated to visualize the gender distribution of th
 
 ---
 
-### 11. Use a Bar Chart to Show the Relationship Between Age_Group and Revenue
+### 5.f. Use a Bar Chart to Show the Relationship Between Age_Group and Revenue
 This bar chart shows the relationship between different age groups and their corresponding revenue.
 
 **Screenshot:**
@@ -159,7 +159,7 @@ This bar chart shows the relationship between different age groups and their cor
 
 ---
 
-### 12. Identify the Most and Least Profitable Product_Category
+### 5.g. Identify the Most and Least Profitable Product_Category
 We analyze which product category is the most and least profitable by summing the profits for each category and creating a horizontal bar chart.
 
 **Screenshot:**
@@ -168,7 +168,7 @@ We analyze which product category is the most and least profitable by summing th
 
 ---
 
-### 13. Take User Input for Start and End Month/Year and Create a Line Plot Showing Revenue and Profit Trends
+### 5.h. Take User Input for Start and End Month/Year and Create a Line Plot Showing Revenue and Profit Trends
 A line plot is created to show the trends in revenue and profit based on user input for a specific period.
 
 **Screenshot:**
@@ -177,7 +177,7 @@ A line plot is created to show the trends in revenue and profit based on user in
 
 ---
 
-### 14. Calculate the Average Profit Margin per Product and Plot Using a Scatter Plot
+### 5.i. Calculate the Average Profit Margin per Product and Plot Using a Scatter Plot
 A scatter plot is generated to visualize the average profit margin for each product.
 
 **Screenshot:**
@@ -186,7 +186,7 @@ A scatter plot is generated to visualize the average profit margin for each prod
 
 ---
 
-### 15. [Advanced] Plot Profit Margin per Product with Profit Amount Using Scatter Plot (Marker Size as Profit Indicator)
+### 5. j.[Advanced] Plot Profit Margin per Product with Profit Amount Using Scatter Plot (Marker Size as Profit Indicator)
 An advanced scatter plot visualizes the relationship between profit margin and profit amount, with marker size representing profit.
 
 **Screenshot:**
@@ -195,7 +195,7 @@ An advanced scatter plot visualizes the relationship between profit margin and p
 
 ---
 
-### 16. Examine Which Sub_Category within a Product_Category Performs Best in Terms of Profit or Revenue
+### 5.k. Examine Which Sub_Category within a Product_Category Performs Best in Terms of Profit or Revenue
 A stacked bar chart is created to visualize revenue or profit by sub-category within each product category.
 
 **Screenshot:**
